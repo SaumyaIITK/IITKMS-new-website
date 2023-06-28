@@ -60,7 +60,7 @@
 
   </head>
 
-<body>
+<body style="background-image: url(assets/images/cars-bg.jpg)";>
 
   <!--div id="preloader">
     <div class="jumper">
@@ -70,43 +70,48 @@
     </div>
 </div-->  
 
-<header class="">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img src=assets/images/logo.png></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li> 
-          <li class="nav-item active">
-            <a class="nav-link" href="cars.html">Cars</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="events.html">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sponsors.html">Sponsors</a>
-          </li>
-           
-          <li class="nav-item">
-            <a class="nav-link" href="team.html">Teams</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-         
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src=assets/images/logo.png></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li> 
+              <li class="nav-item active">
+                <a class="nav-link" href="cars.html">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sponsors.html">Sponsors</a>
+              </li>
+               
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Teams <i class="fa fa-chevron-down"></i></a>
+                <ul class="dropdown">
+                  <li><a href="team-19.html">Team'20</a></li>
+                  <li><a href="team21.html">Team'21</a></li>
+                  <li><a href="team.html">Team'22</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 <!-- Page Content -->
 <div class="page-heading about-heading header-text">
   <div class="container">
@@ -120,10 +125,15 @@
     </div>
   </div>
 </div>
+<style>
+   body{
+      background-image: url(assets/images/cars-bg.jpg);
+   }
+</style>
 
    <!-- blog section end -->
    <!-- client section start -->
-   <div class="client_section layout_padding">
+   <div class="client_section layout_padding" >
     <div id="main_slider" class="carousel slide" data-ride="carousel">
        <div class="carousel-inner">
           <div class="carousel-item active">
@@ -328,7 +338,7 @@
    </div>
    <div class="carousel-item">
     <div class="container">
-       <h1 class="client_taital">KMS21</h1>
+       <h1 class="client_taital">KMS11</h1>
        <div class="client_section_2">
           <div class="client_left">
              <div><img src="assets/images/KMS'11.jpg" class="client_img"></div>
@@ -352,28 +362,28 @@
  </div>
 
  <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="inner-content">
-          <h6>Society of Automotive Engineers</h6>
-          <p>Indian Institute of Technology, Kanpur</p>
-          <p>Kanpur-208016, Uttar Pradesh, India</p>
-          <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <br>
-            <br>
-            <p style="margin-bottom: 0px;">created by web-creatives team of IITK Motorsports</p>
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="inner-content">
+           <h5>Society of Automotive Engineers</h6>
+           <p>Indian Institute of Technology, Kanpur</p>
+           <p>Kanpur-208016, Uttar Pradesh, India</p>
+           <ul class="social-icons">
+             <li><a href="https://www.facebook.com/SAE.IITK"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="https://in.linkedin.com/company/team-iitk-motorsports"><i class="fa fa-linkedin"></i></a></li>
+             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+             
+             
+             <p style="margin-bottom: 0px; margin-right: 0px; text-align: right; font-size: 10px; font-weight: 600; color: black;">created by web team of IITK Motorsports</p>
 
-            
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+             
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+ </footer>
 
 
 
