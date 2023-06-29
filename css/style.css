@@ -548,7 +548,7 @@ button {
 
 .client_taital{
     width: 100%;
-    font-size: 40px;
+    font-size: 55px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -570,19 +570,19 @@ button {
 .client_section_2 {
     width: 80%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px;
     margin-top: 30px;
     display: flex;
 }
 
 .client_left{
-    width: 40%;
+    width: 50%;
     padding: 50px 0px 0px 40px;
 }
 
 .client_right {
-    width: 60%;
-    padding: 20px 0px 0px 40px;
+    width: 50%;
+    padding: 20px 0px 100px 40px;
 }
 
 .client_img {
@@ -591,14 +591,14 @@ button {
 .client_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     margin: 0px;
     padding-top: 20px;
     font-family: 'Poppins', sans-serif;
 }
 .client_text b{
-    font-weight: 600;
+    font-weight: 650;
 }
 .client_name {
     width: 100%;
